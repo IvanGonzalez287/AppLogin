@@ -1,4 +1,4 @@
-// Aboutscreen.js
+// Result.js
 import React, { Component } from 'react';
 import { Button, View, Text,Linking } from 'react-native';
 import { createAppContainer } from 'react-navigation';

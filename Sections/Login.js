@@ -1,4 +1,4 @@
-// Homescreen.js
+// Login.js
 import React, { Component } from 'react';
 
 import { StyleSheet, Button, View, Text,TextInput,NativeModules,TouchableOpacity   } from 'react-native';
@@ -43,7 +43,7 @@ export default class Homescreen extends Component {
 
         <TouchableOpacity
              style={css.button}
-              onPress={() => this.props.navigation.navigate('About')}>
+              onPress={() => this.props.navigation.navigate('Result')}>
             <Text  style={css.buttonText}>Login</Text>
         </TouchableOpacity>
 

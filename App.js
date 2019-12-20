@@ -5,8 +5,8 @@ import { createAppContainer } from 'react-navigation';
 import { createStackNavigator } from 'react-navigation-stack';
 
 
-import HomeScreen from './Sections/HomeScreen';
-import AboutScreen from './Sections/AboutScreen';
+import LoginScreen from './Sections/Login';
+import ResultScreen from './Sections/Result';
 
 
 export default class App extends React.Component {
@@ -17,14 +17,14 @@ export default class App extends React.Component {
 
 const AppNavigator = createStackNavigator({
   
-  Home: {
-    screen: HomeScreen
+  Login: {
+    screen: LoginScreen
   },
-  About: {
-    screen: AboutScreen
+  Result: {
+    screen: ResultScreen
   }
 },{
-        initialRouteName: "Home"
+        initialRouteName: "Login"
 });
 
 const AppContainer = createAppContainer(AppNavigator);
